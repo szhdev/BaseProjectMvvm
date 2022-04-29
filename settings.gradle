@@ -1,0 +1,4 @@
+include ':library:base'
+include ':library'
+include ':app'
+rootProject.name = "BaseProjectMvvm"

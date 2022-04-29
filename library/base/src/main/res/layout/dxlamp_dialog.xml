@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#fff">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#4D6595"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:text="提示"
+
+        />
+
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提醒内容"
+        android:layout_marginTop="20dp"
+        android:lineSpacingMultiplier="1.5"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#4D6595"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/btn_sure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_dxlamp_shape"
+        android:layout_marginTop="25dp"
+        android:clickable="true"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:text="确认"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp" />
+
+    <TextView
+        android:id="@+id/btn_close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_dxlamp_shape"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:text="取消"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:clickable="true" />
+
+</LinearLayout>
