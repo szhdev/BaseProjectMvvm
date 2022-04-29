@@ -1,5 +1,8 @@
 # BaseProjectMvvm
 
-dependencies {
-	        implementation 'com.github.szhdev:BaseProjectMvvm:1.0.0'
-	}
+
+
+//在dependencies内部引入库
+  dependencies {
+     implementation 'com.github.szhdev:QuickClick:v1.0'
+ }}
