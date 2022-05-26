@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.szhdev.base">
-    <provider
-        android:name=".DxDbContentProvider"
-        android:authorities="${applicationId}.DxDbContentProvider"
-        android:enabled="true"
-        android:exported="true"></provider>
+    <application>
+        <provider
+            android:name=".db.DxDbContentProvider"
+            android:authorities="${applicationId}.DxDbContentProvider"
+            android:enabled="true"
+            android:exported="true"></provider>
+    </application>
 </manifest>
