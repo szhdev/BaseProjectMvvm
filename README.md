@@ -6,7 +6,7 @@
 
   dependencies {
   
-     implementation 'com.github.szhdev:BaseProjectMvvm:1.0.0'
+     implementation 'com.github.szhdev:BaseProjectMvvm:v1.0.2'
      
  }
 ```
