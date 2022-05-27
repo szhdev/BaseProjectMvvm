@@ -15,7 +15,7 @@ import okhttp3.Request;
 
 /**
  * Created by szhdev on 2021/6/11.
- * NetCheck可以通过head请求导学服务器自己的接口来判断网络是否正常
+ * NetCheck可以通过head请求url来判断网络是否正常
  */
 public class DxNetCheck {
 
